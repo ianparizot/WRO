@@ -40,7 +40,7 @@ jobs:
       run: |
         mkdir build
         cd build
-        cmake ..
+        cmake ../path/to/your/source
         make
 
     - name: Perform CodeQL Analysis
