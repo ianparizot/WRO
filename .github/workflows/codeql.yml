@@ -40,7 +40,7 @@ jobs:
       run: |
         mkdir build
         cd build
-        cmake ../path/to/your/source
+        cmake ../WRO2025/WRO2025_functions
         make
 
     - name: Perform CodeQL Analysis
