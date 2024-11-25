@@ -13,6 +13,6 @@ double time_to_collision_at_rest(float velocity) {
 }
 
 double xposition(double time) {
-    return time * 343;
+    return time * 343 / 2;
 }
 #endif
