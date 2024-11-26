@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(void) {
+int Check(void) {
   printf("More to come soon,... ");
   return 0;
 }
